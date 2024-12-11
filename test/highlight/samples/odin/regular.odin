@@ -45,7 +45,7 @@ main :: proc() {
 
 	may: Maybe(string)
 
-	exp := 5 * (1 + 2)
+	exp := cast(f64)5 * (1 + 2)
 
 	mat: matrix[2, 3]int
 	mat = matrix[2, 3]int{

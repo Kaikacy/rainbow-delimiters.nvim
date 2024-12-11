@@ -22,6 +22,10 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
+(cast_expression
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
+
 (call_expression
   "(" @delimiter
   ")" @delimiter @sentinel) @container
